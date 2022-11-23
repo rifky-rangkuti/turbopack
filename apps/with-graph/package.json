@@ -1,0 +1,34 @@
+{
+  "name": "with-graph",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^4.16.1",
+    "graph": "^0.2.0",
+    "graphql": "^16.6.0",
+    "graphql-request": "^5.0.0",
+    "next": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-table": "^7.8.0",
+    "ui": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.12",
+    "@types/react": "^18.0.22",
+    "@types/react-dom": "^18.0.7",
+    "autoprefixer": "^10.4.0",
+    "eslint-config-custom": "*",
+    "postcss": "^8.4.4",
+    "tailwind-config": "*",
+    "tailwindcss": "^3.0.0",
+    "tsconfig": "*",
+    "typescript": "^4.5.3"
+  }
+}

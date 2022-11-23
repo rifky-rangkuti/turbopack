@@ -5,7 +5,7 @@ export const getPokemons = () => {
   return client.request(
     gql`
       query GetPokemons {
-        gen3_species: pokemon_v2_pokemonspecies(where: { id: {} }) {
+        gen3_species: pokemon_v2_pokemonspecies(limit: 20) {
           name
           id
         }
